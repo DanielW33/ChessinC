@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/daniel/CLionProjects/ChessCCode/main.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+/home/daniel/CLionProjects/ChessCCode/string.h
+
